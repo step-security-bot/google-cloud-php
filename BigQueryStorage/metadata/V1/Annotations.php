@@ -16,9 +16,9 @@ class Annotations
         }
         $pool->internalAddGeneratedFile(
             '
-Ì
-2google/cloud/bigquery/storage/v1/annotations.proto google.cloud.bigquery.storage.v1 google/protobuf/descriptor.protoBÉ
-$com.google.cloud.bigquery.storage.v1BAnnotationsProtoPZGgoogle.golang.org/genproto/googleapis/cloud/bigquery/storage/v1;storageª Google.Cloud.BigQuery.Storage.V1Ê Google\\Cloud\\BigQuery\\Storage\\V1bproto3'
+Ã
+2google/cloud/bigquery/storage/v1/annotations.proto google.cloud.bigquery.storage.v1 google/protobuf/descriptor.protoBÀ
+$com.google.cloud.bigquery.storage.v1BAnnotationsProtoPZ>cloud.google.com/go/bigquery/storage/apiv1/storagepb;storagepbª Google.Cloud.BigQuery.Storage.V1Ê Google\\Cloud\\BigQuery\\Storage\\V1bproto3'
         , true);
 
         static::$is_initialized = true;
