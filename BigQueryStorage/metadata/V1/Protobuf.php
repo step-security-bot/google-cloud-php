@@ -16,13 +16,13 @@ class Protobuf
         }
         $pool->internalAddGeneratedFile(
             '
-·
+®
 /google/cloud/bigquery/storage/v1/protobuf.proto google.cloud.bigquery.storage.v1 google/protobuf/descriptor.proto"I
 ProtoSchema:
 proto_descriptor (2 .google.protobuf.DescriptorProto"$
 	ProtoRows
-serialized_rows (BÆ
-$com.google.cloud.bigquery.storage.v1BProtoBufProtoPZGgoogle.golang.org/genproto/googleapis/cloud/bigquery/storage/v1;storageª Google.Cloud.BigQuery.Storage.V1Ê Google\\Cloud\\BigQuery\\Storage\\V1bproto3'
+serialized_rows (B½
+$com.google.cloud.bigquery.storage.v1BProtoBufProtoPZ>cloud.google.com/go/bigquery/storage/apiv1/storagepb;storagepbª Google.Cloud.BigQuery.Storage.V1Ê Google\\Cloud\\BigQuery\\Storage\\V1bproto3'
         , true);
 
         static::$is_initialized = true;
