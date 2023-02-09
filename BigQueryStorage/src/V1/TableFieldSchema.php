@@ -95,6 +95,13 @@ class TableFieldSchema extends \Google\Protobuf\Internal\Message
      * Generated from protobuf field <code>int64 scale = 9 [(.google.api.field_behavior) = OPTIONAL];</code>
      */
     private $scale = 0;
+    /**
+     * Optional. A SQL expression to specify the [default value]
+     * (https://cloud.google.com/bigquery/docs/default-values) for this field.
+     *
+     * Generated from protobuf field <code>string default_value_expression = 10 [(.google.api.field_behavior) = OPTIONAL];</code>
+     */
+    private $default_value_expression = '';
 
     /**
      * Constructor.
@@ -150,6 +157,9 @@ class TableFieldSchema extends \Google\Protobuf\Internal\Message
      *           If scale is specified but not precision, then it is invalid.
      *     @type int|string $scale
      *           Optional. See documentation for precision.
+     *     @type string $default_value_expression
+     *           Optional. A SQL expression to specify the [default value]
+     *           (https://cloud.google.com/bigquery/docs/default-values) for this field.
      * }
      */
     public function __construct($data = NULL) {
@@ -425,6 +435,34 @@ class TableFieldSchema extends \Google\Protobuf\Internal\Message
     {
         GPBUtil::checkInt64($var);
         $this->scale = $var;
+
+        return $this;
+    }
+
+    /**
+     * Optional. A SQL expression to specify the [default value]
+     * (https://cloud.google.com/bigquery/docs/default-values) for this field.
+     *
+     * Generated from protobuf field <code>string default_value_expression = 10 [(.google.api.field_behavior) = OPTIONAL];</code>
+     * @return string
+     */
+    public function getDefaultValueExpression()
+    {
+        return $this->default_value_expression;
+    }
+
+    /**
+     * Optional. A SQL expression to specify the [default value]
+     * (https://cloud.google.com/bigquery/docs/default-values) for this field.
+     *
+     * Generated from protobuf field <code>string default_value_expression = 10 [(.google.api.field_behavior) = OPTIONAL];</code>
+     * @param string $var
+     * @return $this
+     */
+    public function setDefaultValueExpression($var)
+    {
+        GPBUtil::checkString($var, True);
+        $this->default_value_expression = $var;
 
         return $this;
     }
