@@ -22,7 +22,8 @@ class DescriptorFix
           return;
         }
 
-        $pool->addMessage('google.protobuf.DescriptorProto', \Google\Protobuf\Internal\DescriptorProto::class)->finalizeToPool();
+        // add a no-op reference for "google.protobuf.DescriptorProto"
+        $pool->addMessage('google.protobuf.DescriptorProto', \Google\Protobuf\Internal\Message::class)->finalizeToPool();
         static::$is_initialized = true;
     }
 }
