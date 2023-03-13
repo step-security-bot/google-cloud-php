@@ -521,7 +521,7 @@
             "Grafeas\\": "Grafeas/src"
         },
         "files": [
-            "BigQueryStorage/metadata/Protobuf/Internal/Descriptor.php"
+            "BigQueryStorage/metadata/descriptor_fix.php"
         ]
     },
     "autoload-dev": {

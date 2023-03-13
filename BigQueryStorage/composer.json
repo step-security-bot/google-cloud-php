@@ -9,7 +9,7 @@
             "GPBMetadata\\Google\\Cloud\\Bigquery\\Storage\\": "metadata"
         },
         "files": [
-            "metadata/Protobuf/Internal/Descriptor.php"
+            "metadata/descriptor_fix.php"
         ]
     },
     "autoload-dev": {
