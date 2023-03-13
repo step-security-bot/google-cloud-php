@@ -1,11 +1,16 @@
 <?php
-# This file is to prevent the following error from being thrown in this library when
-# the native PHP protobuf library is used:
-#   "proto not added: google.protobuf.DescriptorProto for google.cloud.bigquery.storage.v1.ProtoSchema"
 
+/**
+ * IMPORTANT: This file is to prevent the following error from being thrown in this library when
+ * the native PHP protobuf library is used:
+ *
+ *   "proto not added: google.protobuf.DescriptorProto for google.cloud.bigquery.storage.v1.ProtoSchema"
+ *
+ * This file can be removed once a fix is implemented in the protobuf library
+ * @see https://github.com/protocolbuffers/protobuf/issues/11649
+ */
 namespace GPBMetadata\Google\Protobuf;
 
-# skip for now
 class DescriptorFix
 {
     public static $is_initialized = false;
