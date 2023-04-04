@@ -45,7 +45,8 @@ class JobStats extends \Google\Protobuf\Internal\Message
      * populated. Aggregate usage of all jobs submitted to a reservation
      * should provide a more reliable indicator of reservation imbalance.
      *
-     * Generated from protobuf field <code>repeated .google.cloud.audit.BigQueryAuditMetadata.JobStats.ReservationResourceUsage reservation_usage = 11;</code>
+     * Generated from protobuf field <code>repeated .google.cloud.audit.BigQueryAuditMetadata.JobStats.ReservationResourceUsage reservation_usage = 11 [deprecated = true];</code>
+     * @deprecated
      */
     private $reservation_usage;
     /**
@@ -323,11 +324,13 @@ class JobStats extends \Google\Protobuf\Internal\Message
      * populated. Aggregate usage of all jobs submitted to a reservation
      * should provide a more reliable indicator of reservation imbalance.
      *
-     * Generated from protobuf field <code>repeated .google.cloud.audit.BigQueryAuditMetadata.JobStats.ReservationResourceUsage reservation_usage = 11;</code>
+     * Generated from protobuf field <code>repeated .google.cloud.audit.BigQueryAuditMetadata.JobStats.ReservationResourceUsage reservation_usage = 11 [deprecated = true];</code>
      * @return \Google\Protobuf\Internal\RepeatedField
+     * @deprecated
      */
     public function getReservationUsage()
     {
+        @trigger_error('reservation_usage is deprecated.', E_USER_DEPRECATED);
         return $this->reservation_usage;
     }
 
@@ -337,12 +340,14 @@ class JobStats extends \Google\Protobuf\Internal\Message
      * populated. Aggregate usage of all jobs submitted to a reservation
      * should provide a more reliable indicator of reservation imbalance.
      *
-     * Generated from protobuf field <code>repeated .google.cloud.audit.BigQueryAuditMetadata.JobStats.ReservationResourceUsage reservation_usage = 11;</code>
+     * Generated from protobuf field <code>repeated .google.cloud.audit.BigQueryAuditMetadata.JobStats.ReservationResourceUsage reservation_usage = 11 [deprecated = true];</code>
      * @param array<\Google\Cloud\Audit\BigQueryAuditMetadata\JobStats\ReservationResourceUsage>|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
+     * @deprecated
      */
     public function setReservationUsage($var)
     {
+        @trigger_error('reservation_usage is deprecated.', E_USER_DEPRECATED);
         $arr = GPBUtil::checkRepeatedField($var, \Google\Protobuf\Internal\GPBType::MESSAGE, \Google\Cloud\Audit\BigQueryAuditMetadata\JobStats\ReservationResourceUsage::class);
         $this->reservation_usage = $arr;
 
