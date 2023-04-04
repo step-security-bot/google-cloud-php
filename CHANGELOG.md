@@ -1,5 +1,132 @@
 # Changelog
 
+## 0.201.0
+
+<details><summary>google/cloud-advisorynotifications 0.2.0</summary>
+
+
+
+### Features
+
+* Updating Cloud Client Libraries with new field NotificationType for advisorynotifications.googleapis.com ([#6015](https://github.com/googleapis/google-cloud-php/issues/6015)) ([57a3ebe](https://github.com/googleapis/google-cloud-php/commit/57a3ebe8fa9882529cba4cad206f9c11e08716ad))
+
+</details>
+
+<details><summary>google/cloud-ai-platform 0.14.0</summary>
+
+
+
+### Features
+
+* Add copy to ModelSourceInfo ([9f6dbc8](https://github.com/googleapis/google-cloud-php/commit/9f6dbc86e66ab6d0a971bd980f9e8c3af8013952))
+* Add ModelSourceType.MODEL_GARDEN enum to ModelSourceInfo ([9f6dbc8](https://github.com/googleapis/google-cloud-php/commit/9f6dbc86e66ab6d0a971bd980f9e8c3af8013952))
+* Add public_endpoint_enabled and publid_endpoint_domain_name to IndexEndpoint ([#6020](https://github.com/googleapis/google-cloud-php/issues/6020)) ([9f6dbc8](https://github.com/googleapis/google-cloud-php/commit/9f6dbc86e66ab6d0a971bd980f9e8c3af8013952))
+
+</details>
+
+<details><summary>google/analytics-admin 0.11.0</summary>
+
+
+
+### Features
+
+* Add `AccessDimension`, `AccessMetric`, `AccessDateRange`, `AccessFilterExpression`, `AccessFilterExpressionList`, `AccessFilter`, `AccessStringFilter`, `AccessInListFilter`, `AccessNumericFilter`, `AccessBetweenFilter`, `NumericValue`, `AccessOrderBy`, `AccessDimensionHeader`, `AccessMetricHeader`, `AccessRow`, `AccessDimensionValue`, `AccessMetricValue`, `AccessQuota`, `AccessQuotaStatus` types to the Admin API v1beta ([9479f11](https://github.com/googleapis/google-cloud-php/commit/9479f11e9c16117ccb0cd0e14928afc2a30eb1c2))
+* Add `enhanced_measurement_settings` option to the `ChangeHistoryResource.resource` oneof field ([9479f11](https://github.com/googleapis/google-cloud-php/commit/9479f11e9c16117ccb0cd0e14928afc2a30eb1c2))
+* Add `ENHANCED_MEASUREMENT_SETTINGS` option to the `ChangeHistoryResourceType` enum ([9479f11](https://github.com/googleapis/google-cloud-php/commit/9479f11e9c16117ccb0cd0e14928afc2a30eb1c2))
+* Add `intraday_export_enabled` field to the `BigQueryLink` resource ([9479f11](https://github.com/googleapis/google-cloud-php/commit/9479f11e9c16117ccb0cd0e14928afc2a30eb1c2))
+* Add `RunAccessReport` method (with bindings for account and property resources) to the Admin API v1beta ([#5985](https://github.com/googleapis/google-cloud-php/issues/5985)) ([9479f11](https://github.com/googleapis/google-cloud-php/commit/9479f11e9c16117ccb0cd0e14928afc2a30eb1c2))
+
+</details>
+
+<details><summary>google/cloud-asset 1.11.0</summary>
+
+
+
+### Features
+
+* Add client library support for AssetService v1 AnalyzeOrgPolicies API ([#6019](https://github.com/googleapis/google-cloud-php/issues/6019)) ([f08eb87](https://github.com/googleapis/google-cloud-php/commit/f08eb8726c5fa993c17c68d5942f0baf064589bf))
+* Add client library support for AssetService v1 AnalyzeOrgPolicyGovernedAssets API ([f08eb87](https://github.com/googleapis/google-cloud-php/commit/f08eb8726c5fa993c17c68d5942f0baf064589bf))
+* Add client library support for AssetService v1 AnalyzeOrgPolicyGovernedContainers API ([f08eb87](https://github.com/googleapis/google-cloud-php/commit/f08eb8726c5fa993c17c68d5942f0baf064589bf))
+
+</details>
+
+<details><summary>google/cloud-common-protos 0.4.0</summary>
+
+
+
+### Features
+
+* Add owlbot and update with latest changes ([#5935](https://github.com/googleapis/google-cloud-php/issues/5935)) ([cea265c](https://github.com/googleapis/google-cloud-php/commit/cea265cc58cfc44176f82f94503c0d8d9fd8319c))
+
+</details>
+
+<details><summary>google/cloud-container 1.11.0</summary>
+
+
+
+### Features
+
+* **Container:** Add a new fleet registration feature ([#6013](https://github.com/googleapis/google-cloud-php/issues/6013)) ([41a1b1c](https://github.com/googleapis/google-cloud-php/commit/41a1b1cd3fff680d33cc3f1d3666c62b53557a16))
+
+</details>
+
+<details><summary>google/cloud-container-analysis 0.2.12</summary>
+
+
+
+### Bug Fixes
+
+* **deps:** Update dependency google/grafeas to ^0.6.0 ([#6002](https://github.com/googleapis/google-cloud-php/issues/6002)) ([f49d287](https://github.com/googleapis/google-cloud-php/commit/f49d287a3ac2d0d877ae2ecb75020c39f0fbb2fd))
+
+</details>
+
+<details><summary>google/cloud-core 1.49.4</summary>
+
+
+
+</details>
+
+<details><summary>google/cloud-datacatalog-lineage 0.1.1</summary>
+
+
+
+</details>
+
+<details><summary>google/cloud-datastore 1.20.0</summary>
+
+
+
+### Features
+
+* Add SUM/AVG aggregation query support in the preview branch and improve query API documentation ([#5996](https://github.com/googleapis/google-cloud-php/issues/5996)) ([d87a7c6](https://github.com/googleapis/google-cloud-php/commit/d87a7c6dd32f7a4f6b51fb50101441494da2e11a))
+
+
+### Bug Fixes
+
+* **Datastore:** Add custom routing headers ([#6000](https://github.com/googleapis/google-cloud-php/issues/6000)) ([694f7d7](https://github.com/googleapis/google-cloud-php/commit/694f7d7bb4466cb8dee3074098f48f32df92e6a8))
+
+</details>
+
+<details><summary>google/cloud-firestore 1.29.0</summary>
+
+
+
+### Features
+
+* **Firestore:** Expose read_time field ([#5865](https://github.com/googleapis/google-cloud-php/issues/5865)) ([1d44c91](https://github.com/googleapis/google-cloud-php/commit/1d44c9131c8303a0f1319b3c44eda1d13c692308))
+
+</details>
+
+<details><summary>google/cloud-video-stitcher 0.4.0</summary>
+
+
+
+### Features
+
+* LRO changes for CdnKey and Slate methods, VodSession changes for ad tracking, and LiveSession changes for live config ([#5997](https://github.com/googleapis/google-cloud-php/issues/5997)) ([1019bf0](https://github.com/googleapis/google-cloud-php/commit/1019bf0ed74001d905640cd3e196fff75b1014ab))
+
+</details>
+
 ## 0.200.0
 
 <details><summary>google/cloud-alloydb 0.1.1</summary>
